@@ -11,9 +11,8 @@ class NODE{
      int data;
     NODE *nextPtr;
 public:
-    NODE(int);
-    ~NODE();
-    void set_next(NODE*);
+    NODE(int x);
+    void set_next(NODE* t);
     NODE* get_next();
     int get_value();
 };
@@ -40,14 +39,4 @@ void NODE::set_next(NODE *t){
      nextPtr=t;
 
 }
-NODE::~NODE(){
-     cout<<"deleting "<<data<<endl;
-
-}
-
-
-
-
-
-
 #endif

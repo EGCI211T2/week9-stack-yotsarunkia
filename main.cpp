@@ -14,15 +14,12 @@ int main(int argc, char **argv){
 
  /*
   Exercise 1*/
-    /*
+/*
     int i;
     for(i=1;i<argc;i++){
-      //  if(  x)  s.pop();
+        if(  x)  s.pop();
         else s.push(atoi(argv[i]));
     }
-     */
-
-
-
    return 0;
+   */
 }
